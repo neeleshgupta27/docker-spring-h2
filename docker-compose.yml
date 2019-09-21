@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+  spring-h2:
+    build: ./spring-h2/.
+    ports:
+      - "9090:80"
+    networks:
+      - front-tier
+      - back-tier
+
+networks:
+  front-tier:
+  back-tier:
+
+
