@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:7
 
 RUN apt-get update -qq && apt-get install -y maven && apt-get clean
 
@@ -14,4 +14,4 @@ RUN ["mvn", "package"]
 
 RUN ls -lrt /code/target
 
-CMD ["java", "-jar", "target/spring-h2.jar"]
+CMD ["java", "-jar", "target/spring-h2-jar-with-dependencies.jar"]
