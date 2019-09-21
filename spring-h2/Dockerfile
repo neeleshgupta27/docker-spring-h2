@@ -12,6 +12,6 @@ RUN ["mvn", "verify"]
 ADD src /code/src
 RUN ["mvn", "package"]
 
-RUN ls -lrt /code/target
+RUN ["ls", "/code/target"]
 
 CMD ["java", "-jar", "target/spring-h2-jar-with-dependencies.jar"]
