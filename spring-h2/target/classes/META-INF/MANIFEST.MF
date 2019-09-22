@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Built-By: neelesh
+Class-Path: dependency-jars/spring-boot-starter-jdbc-1.5.10.RELEASE.ja
+ r dependency-jars/spring-boot-starter-1.5.10.RELEASE.jar dependency-j
+ ars/spring-boot-1.5.10.RELEASE.jar dependency-jars/spring-boot-autoco
+ nfigure-1.5.10.RELEASE.jar dependency-jars/spring-boot-starter-loggin
+ g-1.5.10.RELEASE.jar dependency-jars/logback-classic-1.1.11.jar depen
+ dency-jars/logback-core-1.1.11.jar dependency-jars/jul-to-slf4j-1.7.2
+ 5.jar dependency-jars/log4j-over-slf4j-1.7.25.jar dependency-jars/spr
+ ing-core-4.3.14.RELEASE.jar dependency-jars/snakeyaml-1.17.jar depend
+ ency-jars/tomcat-jdbc-8.5.27.jar dependency-jars/tomcat-juli-8.5.27.j
+ ar dependency-jars/spring-jdbc-4.3.14.RELEASE.jar dependency-jars/spr
+ ing-beans-4.3.14.RELEASE.jar dependency-jars/spring-tx-4.3.14.RELEASE
+ .jar dependency-jars/spring-boot-starter-web-1.5.10.RELEASE.jar depen
+ dency-jars/spring-boot-starter-tomcat-1.5.10.RELEASE.jar dependency-j
+ ars/tomcat-embed-core-8.5.27.jar dependency-jars/tomcat-annotations-a
+ pi-8.5.27.jar dependency-jars/tomcat-embed-el-8.5.27.jar dependency-j
+ ars/tomcat-embed-websocket-8.5.27.jar dependency-jars/hibernate-valid
+ ator-5.3.6.Final.jar dependency-jars/validation-api-1.1.0.Final.jar d
+ ependency-jars/jboss-logging-3.3.0.Final.jar dependency-jars/jackson-
+ databind-2.8.10.jar dependency-jars/jackson-annotations-2.8.0.jar dep
+ endency-jars/jackson-core-2.8.10.jar dependency-jars/spring-web-4.3.1
+ 4.RELEASE.jar dependency-jars/spring-aop-4.3.14.RELEASE.jar dependenc
+ y-jars/spring-context-4.3.14.RELEASE.jar dependency-jars/spring-webmv
+ c-4.3.14.RELEASE.jar dependency-jars/spring-expression-4.3.14.RELEASE
+ .jar dependency-jars/spring-boot-starter-data-jpa-1.5.10.RELEASE.jar 
+ dependency-jars/spring-boot-starter-aop-1.5.10.RELEASE.jar dependency
+ -jars/aspectjweaver-1.8.13.jar dependency-jars/hibernate-core-5.0.12.
+ Final.jar dependency-jars/hibernate-jpa-2.1-api-1.0.0.Final.jar depen
+ dency-jars/javassist-3.18.1-GA.jar dependency-jars/antlr-2.7.7.jar de
+ pendency-jars/jandex-2.0.0.Final.jar dependency-jars/dom4j-1.6.1.jar 
+ dependency-jars/xml-apis-1.0.b2.jar dependency-jars/hibernate-commons
+ -annotations-5.0.1.Final.jar dependency-jars/hibernate-entitymanager-
+ 5.0.12.Final.jar dependency-jars/javax.transaction-api-1.2.jar depend
+ ency-jars/spring-data-jpa-1.11.10.RELEASE.jar dependency-jars/spring-
+ data-commons-1.13.10.RELEASE.jar dependency-jars/spring-orm-4.3.14.RE
+ LEASE.jar dependency-jars/jcl-over-slf4j-1.7.25.jar dependency-jars/s
+ pring-aspects-4.3.14.RELEASE.jar dependency-jars/h2-1.4.196.jar depen
+ dency-jars/springfox-swagger2-2.6.1.jar dependency-jars/swagger-annot
+ ations-1.5.10.jar dependency-jars/swagger-models-1.5.10.jar dependenc
+ y-jars/springfox-spi-2.6.1.jar dependency-jars/springfox-core-2.6.1.j
+ ar dependency-jars/springfox-schema-2.6.1.jar dependency-jars/springf
+ ox-swagger-common-2.6.1.jar dependency-jars/springfox-spring-web-2.6.
+ 1.jar dependency-jars/guava-18.0.jar dependency-jars/classmate-1.3.1.
+ jar dependency-jars/slf4j-api-1.7.21.jar dependency-jars/spring-plugi
+ n-core-1.2.0.RELEASE.jar dependency-jars/spring-plugin-metadata-1.2.0
+ .RELEASE.jar dependency-jars/mapstruct-1.0.0.Final.jar dependency-jar
+ s/springfox-swagger-ui-2.6.1.jar
+Build-Jdk: 1.8.0_144
+Created-By: Maven Integration for Eclipse
+Main-Class: com.neel.Application
+
