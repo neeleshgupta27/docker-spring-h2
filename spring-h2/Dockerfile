@@ -1,4 +1,4 @@
-FROM openjdk:7
+FROM openjdk:8-jdk-alpine
 
 RUN apt-get update -qq && apt-get install -y maven && apt-get clean
 
@@ -15,6 +15,4 @@ RUN ["mvn", "package"]
 
 RUN ["ls", "/code/target"]
 
-ARG JAR_FILE
-ADD ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","/code/target/spring-h2-0.0.1-SNAPSHOT.jar"]
