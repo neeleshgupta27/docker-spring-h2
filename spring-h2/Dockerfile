@@ -15,4 +15,4 @@ RUN ["mvn", "package"]
 
 RUN ["ls", "/code/target"]
 
-ENTRYPOINT ["java","-jar","/code/target/spring-h2-jar-with-dependencies.jar"]
+ENTRYPOINT ["java","-jar","/code/target/spring-h2-0.0.1-SNAPSHOT.jar"]
