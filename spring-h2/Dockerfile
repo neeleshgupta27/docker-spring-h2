@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8
 
 RUN apt-get update -qq && apt-get install -y maven && apt-get clean
 
